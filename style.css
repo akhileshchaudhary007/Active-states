@@ -1,0 +1,147 @@
+ .attribution {
+     font-size: 11px;
+     text-align: center;
+ }
+
+ .attribution a {
+     color: hsl(228, 45%, 44%);
+ }
+
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .container {
+
+     min-height: 100vh;
+     /* max-width: 2000px; */
+     display: grid;
+     flex-direction: column;
+     /* justify-content: space-between; */
+     align-items: center;
+     grid-template-columns: 2fr 2fr;
+     margin-left: 30rem;
+     max-width: 500px;
+
+ }
+
+ .Result {
+
+     background-color: rgb(73, 22, 194);
+     padding: 2rem;
+     border-radius: 1rem;
+     text-align: center;
+ }
+
+ .Circle {
+     background-color: rgb(108, 53, 237);;
+     display: inline-block;
+     border-radius: 80px;
+     padding: 20px;
+ }
+
+ .result {
+     margin-bottom: 1rem;
+     color: rgb(203, 203, 203);
+ }
+
+ h2 {
+     margin-top: 1rem;
+     color: whitesmoke;
+ }
+
+ .great {
+     margin-top: .5rem;
+ }
+
+ h1 {
+     color: whitesmoke
+ }
+
+ .great {
+     color: rgb(203, 203, 203);
+ }
+
+ h3 {
+     color: rgb(20, 4, 4);
+     margin-bottom: 20px;
+     text-align: left;
+
+ }
+
+ .Summary {
+     background-color: aliceblue;
+     /* text-align: center; */
+     padding: 30px;
+     border-radius: 1rem;
+ }
+
+ .reaction {
+     margin-bottom: 20px;
+     color: rgb(190, 100, 100);
+ }
+
+ .btn {
+     /* margin-top:40px; */
+     text-align: center;
+     padding: 10px;
+     padding-left: 75px;
+     padding-right: 75px;
+     color: white;
+     background-color: hsl(228, 45%, 44%);
+     border-radius: 40px;
+     border: none;
+     margin-top: 30px;
+ }
+
+ .img {
+     background-color: rgb(244, 232, 232);
+     display: inline-block;
+     border-radius: 5px;
+     line-height: 2;
+     padding-right: 10px;
+     text-indent: 10px;
+     margin-bottom: 10px;
+     font-size: normal;
+     color:rgb(185, 101, 101);
+ }
+
+ .memory {
+     background-color: rgb(237, 237, 225);
+     display: inline-block;
+     border-radius: 5px;
+     line-height: 2;
+     padding-right: 10px;
+     text-indent: 10px;
+     margin-bottom: 10px;
+     font-size: normal;
+     color:rgb(223, 223, 123)
+ }
+
+
+ .verbal {
+
+     background-color: rgb(227, 236, 230);
+     display: inline-block;
+     border-radius: 5px;
+     line-height: 2;
+     padding-right: 10px;
+     text-indent: 10px;
+     margin-bottom: 10px;
+     font-size: normal;
+     color:rgb(78, 148, 78);
+ }
+
+ .visuzl {
+
+     background-color: rgb(228, 216, 228);
+     display: inline-block;
+     border-radius: 5px;
+     line-height: 2;
+     padding-right: 10px;
+     text-indent: 10px;
+     margin-bottom: 10px;
+     font-weight: normal;
+color:rgb(125, 84, 125);
+ }
